@@ -204,13 +204,17 @@ EXAMPLES = {
 st.set_page_config(page_title="Química para principiantes", page_icon="🧪", layout="centered")
 
 st.title("🧪 Química para principiantes: moles, masas y fórmulas")
-st.markdown(
-    "Esta herramienta **te guía paso a paso** para resolver ejercicios de:\n"
-    "- Moles, Número de Avogadro, átomos/moléculas\n"
-    "- Masa molar y **composición porcentual**\n"
-    "- **Fórmula empírica** y **fórmula molecular**\n\n"
-   
-)
+st.markdown("""
+### 👩‍🏫 By *Grupo 2* — Javier Vargas e Italo Lazcano
+
+Esta herramienta **te guía paso a paso** para resolver ejercicios de:
+
+- **Moles, Número de Avogadro, átomos/moléculas**
+- **Masa molar y composición porcentual**
+- **Fórmula empírica y fórmula molecular**
+
+---
+""")
 
 with st.sidebar:
     st.header("📚 Glosario rápido")
@@ -448,4 +452,4 @@ with tabs[4]:
             st.warning(str(e))
 
 st.divider()
-st.caption("Diseñada para uso educativo inicial. Las masas atómicas provienen de la librería 'periodictable'.")
+st.caption("Diseñada para uso en ramo Quimica aplicada a la ingenieria U.Mayor. Las masas atómicas provienen de la librería 'periodictable'.")
